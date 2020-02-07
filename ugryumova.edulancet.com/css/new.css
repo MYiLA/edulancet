@@ -1,0 +1,132 @@
+.aboutMe-img{
+   padding-left: 7%;
+}
+
+.program-item-text {
+   width: calc(100% - 280px);
+}
+
+.disc{
+   text-align: center;
+   margin-top: 30px;
+}
+
+.modul{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 40px;
+}
+
+
+
+.banner-container h2 {
+   font-size: 38px;
+   line-height: 50px;
+}
+
+.main-header-menu a, .main-header-tel {
+   color: #000;
+}
+
+.banner-container{
+   background: #fff;
+   border: 8px solid #203C8D;
+}
+.banner-container h1, .banner-container p{
+   color: #000;
+   font-weight: normal;
+}
+
+.banner-container h2{
+   color: #203C8D;
+}
+
+
+ul.p-list{
+   margin: 0;
+   padding: 0;
+}
+
+ul.p-list li, .program-item-text h3{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 31px;
+   text-transform: none;
+}
+ul.p-list li{
+   list-style-type: disc;
+}
+
+
+.program .date{
+   text-align: center;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 44px;
+   color: #000000;
+   margin-bottom: 40px;
+}
+.program .number-modul{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 26px;
+   line-height: 32px;
+   color: #000000;
+   margin-bottom: 22px;
+   text-align: center;
+}
+
+
+.program .modul{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 44px;
+   text-align: center;
+   color: #203C8D;
+}
+
+.main-header-menu-toggle{
+   transform: translateY(-10px) scale(1.2);
+   transform-origin: center right;
+}
+.main-header-nav{
+   background: #fff;
+}
+
+
+@media screen and (max-width: 415px){
+   .banner-wrap {
+      background: url(../img/bg.jpg) right 25% no-repeat;
+      background-size: 200%;
+   }
+   .program-item-text {
+      width: 100%;
+   }
+   .program .date{
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 20px;
+   }
+   .program .number-modul {
+      font-size: 20px;
+      line-height: 24px;
+   }
+   .program .modul {
+      font-size: 22px;
+      line-height: 30px;
+   }
+}
+
+@media screen and (max-width: 320px){
+   .banner-wrap {
+      background: url(../img/bg.jpg) right 38% no-repeat;
+      background-size: 200%;
+   }
+   .banner-container h2 {
+      font-size: 24px;
+      line-height: 35px;
+   }
+}
