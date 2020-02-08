@@ -22,6 +22,7 @@
 .banner-container h2 {
    font-size: 38px;
    line-height: 50px;
+   
 }
 
 .main-header-menu a, .main-header-tel {
@@ -96,11 +97,17 @@ ul.p-list li{
    background: #fff;
 }
 
+@media screen and (max-width: 900px) {
+   .banner-container h2 {
+      font-size: 28px;
+      line-height: 50px;
+   }   
+}
 
 @media screen and (max-width: 415px){
    .banner-wrap {
       background: url(../img/bg.jpg) right 25% no-repeat;
-      background-size: 200%;
+      background-size: 260%;
    }
    .program-item-text {
       width: 100%;
@@ -118,15 +125,16 @@ ul.p-list li{
       font-size: 22px;
       line-height: 30px;
    }
+
+   .banner-container h2 {
+      font-size: 24px;
+      line-height: 35px;
+   }
 }
 
 @media screen and (max-width: 320px){
    .banner-wrap {
       background: url(../img/bg.jpg) right 38% no-repeat;
       background-size: 200%;
-   }
-   .banner-container h2 {
-      font-size: 24px;
-      line-height: 35px;
    }
 }

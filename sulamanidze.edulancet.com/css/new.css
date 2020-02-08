@@ -100,7 +100,7 @@ ul.p-list li{
 @media screen and (max-width: 415px){
    .banner-wrap {
       background: url(../img/bg.jpg) right 25% no-repeat;
-      background-size: 200%;
+      background-size: 240%;
    }
    .program-item-text {
       width: 100%;
