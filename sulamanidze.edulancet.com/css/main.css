@@ -1579,7 +1579,7 @@ h6 {
 
   .banner-wrap .container{
     position: relative;
-    background: url("../img/bg.jpg") 60% bottom no-repeat;
+    background: url("../img/bg.jpg") 100% bottom no-repeat;
     background-size: 115%;
   }
 }
