@@ -247,7 +247,7 @@ h6 {
 }
 
 .banner-wrap {
-  background-color: #1c1412;
+  background-color: #ffffff;
   position: relative;
   background: url("../img/bg.jpg") right center no-repeat;
   background-size: cover;
@@ -1569,5 +1569,17 @@ h6 {
 @media only screen and (min-width: 900px) {
   .main-header-nav {
     display: block !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .banner-wrap {
+    background: none;
+  }
+
+  .banner-wrap .container{
+    position: relative;
+    background: url("../img/bg.jpg") 60% bottom no-repeat;
+    background-size: 115%;
   }
 }
